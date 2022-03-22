@@ -29,6 +29,7 @@ class Todo extends Component {
 
     handleOnSubmit = e => {
         e.preventDefault();
+
         if (this.state.task.trim() !== '') {
             this.setState({
                 task: '',
@@ -48,14 +49,15 @@ class Todo extends Component {
         const foundTask = this.state.items.find(
             task => task.id === id
         );
-        foundTask.complete = true;
-        //Actualizar Estadp
+        foundTask.completed = true;
+        //Actualizar Estado
         this.setState({
             items: [
                 ...this.state.items,
                 ...foundTask
             ]
         });
+        
     };
 
     removeTask = id => {
@@ -74,9 +76,9 @@ class Todo extends Component {
             <div className='Todo'>
                 <h1>Nueva Tarea: </h1>
                 <form onSubmit={this.handleOnSubmit}>
-                    <input value={this.state.task} onChange={this.handleOnChange}/>    
+                    <input value={this.state.task} onChange={this.handleOnChange}/>     
                 </form>
-                <List items={this.state.items} markAsCompleted={this.markAsCompleted} removeTask={this.removeTask}/>    
+               <List items={this.state.items} markAsCompleted={this.markAsCompleted} removeTask={this.removeTask}/>
             </div>
         );
     }
