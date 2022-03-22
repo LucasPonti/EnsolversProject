@@ -1,0 +1,23 @@
+i img{
+    width: 15px;
+    height: 15px;
+}
+
+.title {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -35px;
+}
+
+.options{
+    display: flex; 
+    padding-left: 650px;
+}
+
+.fullContainer {
+    width: 730px;
+    display: flex;
+    justify-content: space-around;
+}
+
