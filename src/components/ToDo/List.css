@@ -12,12 +12,11 @@ i img{
 
 .options{
     display: flex;
-    justify-content: space-between;
+    padding-left: 550px;
 }
 
 .fullContainer {
     width: 730px;
-    display: flex;
-    justify-content: space-around;
+    display: inline-flex;
 }
 

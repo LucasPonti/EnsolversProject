@@ -45,17 +45,18 @@ class Todo extends Component {
         }
     }
 
-    markAsCompleted = id => {
+     markAsCompleted = id => {
         const foundTask = this.state.items.find(
             task => task.id === id
         );
         foundTask.completed = true;
         //Actualizar Estado
-        this.setState({
+         this.setState({
+            ...foundTask,
             items: [
-                ...this.state.items,
-                ...foundTask
-            ]
+                ...this.state.items,     
+            ],
+            
         });
         
     };

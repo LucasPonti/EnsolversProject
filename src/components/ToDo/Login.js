@@ -59,7 +59,7 @@ const Login = () => {
             <input className='password' ref={passwordRef} type= "password" placeholder='Contraseña'/><br/>
             <button disabled={loading || currentUser} onClick={handleSignup}>Registrarse</button>
             <button disabled={loading || currentUser} onClick={handleLogin}>Iniciar Sesion</button>
-            <button disabled={loading || !currentUser} onClick={handleLogOut}>Salir</button>
+            <button disabled={loading || !currentUser} onClick={handleLogOut} setFlag={false}>Salir</button>
         </div>
         
     </div>) : ( 

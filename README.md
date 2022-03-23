@@ -27,6 +27,10 @@ _Tambien encontramos los archivos NavBar, Header y Footer que son los que estruc
 _Clona el repositorio, abrelo con el Visual Studio Code y ejecuta el comando npm start para ejecutar la aplicacion_
 
 
+## Usuario y Contraseña
+_Para iniciar sesion podremos crear un nuevo usuario y contraseña_
+_O bien podremos iniciar sesion con una cuenta ya creada_
+_Cuenta Creada: usuario:  ensolvers@todolist.com  contraseña: ensolvers_
 
 ## Construido con 🛠️
 

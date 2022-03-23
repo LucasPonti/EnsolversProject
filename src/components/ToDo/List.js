@@ -16,7 +16,7 @@ const List = props => (
             <div className='options'>
             <span 
                     className={item.completed ? 'hide' : 'done'} 
-                    onClick={() => props.markAsCompleted(item.id)}>
+                    onClick={() => props.markAsCompleted(item.id)} >
                     <i className='check'><img src={check}/></i>
                 </span>
                 <span 
