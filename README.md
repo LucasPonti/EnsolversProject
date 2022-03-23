@@ -37,7 +37,7 @@ _Clona el repositorio, abrelo con el Visual Studio Code y ejecuta el comando npm
 
 ## Autores ✒️
 
-* **Lucas Ponti** - *Proyecto completo* - [LucasPonti](https://github.com/lucas-ponti)
+* **Lucas Ponti** - *Proyecto completo* - [LucasPonti](https://github.com/LucasPonti)
 
 
 ## Expresiones de Gratitud 🎁
@@ -50,4 +50,4 @@ _Clona el repositorio, abrelo con el Visual Studio Code y ejecuta el comando npm
 
 
 ---
-⌨️ con ❤️ por [LucasPonti](https://github.com/lucas-ponti) 😊
+⌨️ con ❤️ por [LucasPonti](https://github.com/LucasPonti) 😊
