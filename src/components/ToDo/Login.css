@@ -1,0 +1,37 @@
+.Login {
+    display: block;
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.Login img {
+    width: 45px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+.Fields {
+    display: block;
+    margin: 20px;
+}
+
+.user {
+    font-size: 15px;
+}
+
+.password {
+    font-size: 15px;
+}
+
+.Fields button {
+    font-size: 15px;
+}
+
+.Login h2 {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

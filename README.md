@@ -1,71 +1,53 @@
-# Getting Started with Create React App
+# Desafio Ensolvers To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_La aplicacion To-Do List es una lista de tareas pendientes donde luego de registrarnos, o loguearnos 
+podremos crear carpetas de los lugares donde tendremos tareas pendientes, como puede ser revisar formularios en el trabajo, resolver ejercicios de la universidad y hasta lavar la ropa en casa, 
+es totalmente apta para cualquier tipo de actividad en la cual deseemos realizar una lista de tareas pendientes_
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+## Funciones
+_Dentro del proyecto nos encontramos con el archivo App.js el cual vincula todas las funcionalidades del proyecto_
 
-### `npm start`
+_El archivo Files.js nos muestra la lista de nuevas tareas que se agregan en el archivo ToDo que podrenmos agregar para marcar como pendientes o realizados_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_El archivo FileList.js nos permite crear nuevas carpetas que contendran opciones de agregar nuevas tareas pendientes _
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+_El archivo Login.js es el que nos permite iniciar sesion en nuestra aplicacion_
 
-### `npm test`
+_El archivo firebase.js es el que vincula el login con usuarios y contraseñas ya creadas o que vincula una nueva cuenta_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-### `npm run build`
+_Tambien encontramos los archivos NavBar, Header y Footer que son los que estructuran nuestro sitio web, mientras que Files es el que ejecuta la parte donde tendremos interaccion con la aplicacion_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalación 🔧
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Clona el repositorio, abrelo con el Visual Studio Code y ejecuta el comando npm start para ejecutar la aplicacion_
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Construido con 🛠️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [ReactJs](https://es.reactjs.org/) 17.0.2 - Biblioteca de JavaScript utilizada para construir la interfaz de usuario
+* [Firebase](https://firebase.google.com/) 9.6.9 - Utilizado para la base de datos
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de codigo fuente
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Autores ✒️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **Lucas Ponti** - *Proyecto completo* - [LucasPonti](https://github.com/lucas-ponti)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Expresiones de Gratitud 🎁
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Gracias al equipo de Ensolvers por darme la posibilidad de postularme para este empleo  📢
+* Tambien a Camila Peinado por contactarme y reclutarme para que participe en este interesante desafio. 
+* Y gracias a todos por el tiempo dedicado 🤓.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# EnsolversProject
+---
+⌨️ con ❤️ por [LucasPonti](https://github.com/lucas-ponti) 😊
