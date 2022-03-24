@@ -26,6 +26,8 @@ _Tambien encontramos los archivos NavBar, Header y Footer que son los que estruc
 
 _Clona el repositorio, abrelo con el Visual Studio Code y ejecuta el comando npm start para ejecutar la aplicacion_
 
+_Nunca antes me vi ante el desafio de hacer un script bash por lo que no tengo la certeza de que esta parte del proyecto este lograda, de todas maneras segun lo que pude investigar, cree el archivo .sh el cual ejecutandolo deberia abrir la aplicacion, en mi caso con una computadora con SO windows el comando se ejecuta pero no inicia_
+
 
 ## Usuario y Contraseña
 _Para iniciar sesion podremos crear un nuevo usuario y contraseña_
