@@ -4,39 +4,36 @@ import Footer from './components/layout/Footer';
 import NavBar from './components/layout/NavBar';
 import Files from './components/ToDo/Files';
 import Login from './components/ToDo/Login';
-import {useAuth} from './server/firebase' 
+import { useAuth } from './server/firebase';
 
 function App() {
-  const currentUser = useAuth();  
+  const currentUser = useAuth();
 
-  return (
-    currentUser ? (
-      <div className="App">
+  return currentUser ? (
+    <div className="App">
       <header className="App-header">
-        <NavBar/>
-       <Header/>
-       <Login/>
+        <NavBar />
+        <Header />
+        <Login />
       </header>
       <body>
-        <Files/>
+        <Files />
       </body>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
-    ) : (
-      <div className="App">
+  ) : (
+    <div className="App">
       <header className="App-header">
-        <NavBar/>
-       <Header/>
-       <Login/>
+        <NavBar />
+        <Header />
+        <Login />
       </header>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
-    )
-   
   );
 }
 
